@@ -3,11 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hub Nexus | Consultoria Integrada</title>
+    <title>Hub Nexus | Contabilidade, Tecnologia, Segurança do Trabalho e Consórcios</title>
     <meta
       name="description"
-      content="Consultoria em Contabilidade, Tecnologia, Segurança no Trabalho e Consórcios com uma presença digital elegante e moderna."
+      content="A Hub Nexus integra Contabilidade, Tecnologia, Segurança do Trabalho e Consórcios em uma única consultoria. Um diagnóstico, um plano e um parceiro para o seu negócio."
     />
+    <meta name="theme-color" content="#07172a" />
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <link rel="canonical" href="https://hubnexus.com.br/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Hub Nexus | Consultoria integrada" />
+    <meta
+      property="og:description"
+      content="Contabilidade, Tecnologia, Segurança do Trabalho e Consórcios em uma única estratégia consultiva."
+    />
+    <meta property="og:image" content="assets/logo02.png" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,6 +30,8 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
     <div class="page-shell">
       <header class="hero">
         <div class="site-waves" aria-hidden="true">
@@ -24,176 +39,248 @@
           <div class="wave wave-2"></div>
           <div class="wave wave-3"></div>
         </div>
+
         <nav class="topbar" aria-label="Principal">
-          <a class="brand-lockup" href="#inicio" aria-label="Hub Nexus">
-            <img src="assets/logo.png" alt="Logo da Hub Nexus" />
+          <a class="brand-lockup" href="#inicio" aria-label="Hub Nexus — início">
+            <img src="assets/logo.png" alt="" width="58" height="58" />
             <span>
               <strong>Hub Nexus</strong>
               <small>Consultoria integrada</small>
             </span>
           </a>
-          <a class="cta-link" href="#contato">Falar com um especialista</a>
+
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+            <span></span><span></span><span></span>
+          </button>
+
+          <ul class="nav-links" id="menu">
+            <li><a href="#pilares">Pilares</a></li>
+            <li><a href="#metodo">Como funciona</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#faq">Dúvidas</a></li>
+            <li><a class="cta-link" href="#contato">Falar com um especialista</a></li>
+          </ul>
         </nav>
 
         <section class="hero-grid" id="inicio">
           <div class="hero-copy">
-            <p class="eyebrow">Consultoria de alta performance para quem exige mais.</p>
-            <h1>Escolha a consultoria ideal para o momento do seu negócio.</h1>
+            <p class="eyebrow">Contabilidade · Tecnologia · Segurança do Trabalho · Consórcios</p>
+            <h1>Uma consultoria. Quatro frentes. Decisões mais seguras.</h1>
             <p class="lede">
-              A Hub Nexus conecta Contabilidade, Tecnologia, Segurança no Trabalho e Consórcios em uma experiência de
-              consultoria única, com visual sério, direto e alinhado à referência que você enviou.
+              Em vez de contratar quatro fornecedores que não conversam entre si, você conta com um único parceiro que
+              enxerga o negócio por inteiro: números, processos, pessoas e patrimônio.
             </p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#pilares">Conhecer os pilares</a>
-              <a class="button button-secondary" href="#faq">Tirar dúvidas</a>
+              <a class="button button-primary" href="#contato">Solicitar diagnóstico</a>
+              <a class="button button-secondary" href="#pilares">Conhecer os pilares</a>
             </div>
-            <div class="hero-metrics" aria-label="Indicadores rápidos">
-              <article>
+            <ul class="hero-metrics" aria-label="Resumo da proposta">
+              <li>
                 <strong>4</strong>
                 <span>frentes integradas</span>
-              </article>
-              <article>
+              </li>
+              <li>
                 <strong>1</strong>
                 <span>diagnóstico centralizado</span>
-              </article>
-              <article>
-                <strong>100%</strong>
-                <span>visão consultiva</span>
-              </article>
-            </div>
+              </li>
+              <li>
+                <strong>Online</strong>
+                <span>e presencial</span>
+              </li>
+            </ul>
           </div>
 
           <div class="hero-mark">
             <div class="mark-card">
-              <img src="assets/logo02.png" alt="Símbolo da marca Hub Nexus" />
+              <img src="assets/logo02.png" alt="Marca Hub Nexus: Contabilidade, Tecnologia, Segurança do Trabalho e Consórcios" width="1600" height="1600" />
               <div class="mark-caption">
                 <span>Consultoria integrada</span>
                 <strong>Estratégia, organização e suporte em uma única base.</strong>
               </div>
-              <ul class="hero-points">
-                <li>Fluxos contábeis com leitura executiva</li>
-                <li>Automação e apoio tecnológico para decisões</li>
-                <li>Segurança no trabalho com foco em conformidade</li>
-                <li>Planejamento em consórcios com visão de longo prazo</li>
-              </ul>
             </div>
           </div>
         </section>
       </header>
 
-      <main>
-        <section class="strip" aria-label="Diferenciais rápidos">
+      <main id="conteudo">
+        <section class="strip reveal" aria-label="Diferenciais">
           <article>
-            <strong>Visão 360° do Negócio</strong>
-            <span>Diagnóstico centralizado que conecta as principais áreas da sua empresa para decisões mais rápidas e seguras.</span>
+            <strong>Visão 360° do negócio</strong>
+            <span>Diagnóstico centralizado que conecta as principais áreas da empresa para decisões mais rápidas e seguras.</span>
           </article>
           <article>
-            <strong>Eficiência Operacional</strong>
-            <span>Automação de processos e conformidade técnica para reduzir custos e aumentar a produtividade do seu time.</span>
+            <strong>Eficiência operacional</strong>
+            <span>Automação de processos e conformidade técnica para reduzir custos e aumentar a produtividade do time.</span>
           </article>
           <article>
-            <strong>Crescimento Estruturado</strong>
-            <span>Planejamento financeiro e patrimonial de longo prazo para garantir a solidez e a continuidade do seu negócio.</span>
+            <strong>Crescimento estruturado</strong>
+            <span>Planejamento financeiro e patrimonial de longo prazo para garantir solidez e continuidade.</span>
           </article>
         </section>
 
         <section class="section" id="pilares">
-          <div class="section-heading">
+          <div class="section-heading reveal">
             <p>Nossos pilares</p>
             <h2>Escolha a frente ideal para a necessidade da sua empresa.</h2>
+            <p class="section-sub">Contrate uma frente isolada ou combine várias — o diagnóstico é o mesmo.</p>
           </div>
 
           <div class="plan-grid">
-            <article class="pillar-card">
+            <article class="pillar-card reveal">
               <span class="pillar-index">01</span>
               <h3>Contabilidade</h3>
               <p class="price-line">Diagnóstico fiscal e financeiro</p>
-              <p>
-                Organização fiscal, fechamento gerencial, leitura de números e apoio para decisões mais seguras.
-              </p>
-              <a class="card-link" href="#contato">Ver detalhes e condições</a>
+              <p>Organização fiscal, fechamento gerencial e leitura de números para decisões mais seguras.</p>
+              <ul class="pillar-list">
+                <li>Planejamento tributário</li>
+                <li>Fechamento e relatórios gerenciais</li>
+                <li>Rotinas fiscais e obrigações acessórias</li>
+              </ul>
+              <a class="card-link" href="#contato" data-pilar="Contabilidade">Falar sobre Contabilidade</a>
             </article>
-            <article class="pillar-card">
+
+            <article class="pillar-card reveal">
               <span class="pillar-index">02</span>
               <span class="card-badge">Mais solicitado</span>
               <h3>Tecnologia</h3>
               <p class="price-line">Integração, automação e eficiência</p>
-              <p>
-                Modernização de fluxos, integração de sistemas e automações para ganhar produtividade com controle.
-              </p>
-              <a class="card-link" href="#contato">Ver detalhes e condições</a>
+              <p>Modernização de fluxos, integração de sistemas e automações para ganhar produtividade com controle.</p>
+              <ul class="pillar-list">
+                <li>Automação de processos</li>
+                <li>Integração entre sistemas</li>
+                <li>Painéis e indicadores</li>
+              </ul>
+              <a class="card-link" href="#contato" data-pilar="Tecnologia">Falar sobre Tecnologia</a>
             </article>
-            <article class="pillar-card">
+
+            <article class="pillar-card reveal">
               <span class="pillar-index">03</span>
-              <h3>Segurança no Trabalho</h3>
+              <h3>Segurança do Trabalho</h3>
               <p class="price-line">Conformidade e prevenção</p>
-              <p>
-                Apoio na prevenção de riscos, organização documental e fortalecimento de ambientes mais seguros.
-              </p>
-              <a class="card-link" href="#contato">Ver detalhes e condições</a>
+              <p>Prevenção de riscos, organização documental e ambientes mais seguros para quem trabalha na empresa.</p>
+              <ul class="pillar-list">
+                <li>Programas e laudos obrigatórios</li>
+                <li>Gestão documental de SST</li>
+                <li>Treinamentos e prevenção</li>
+              </ul>
+              <a class="card-link" href="#contato" data-pilar="Segurança do Trabalho">Falar sobre Segurança</a>
             </article>
-            <article class="pillar-card">
+
+            <article class="pillar-card reveal">
               <span class="pillar-index">04</span>
               <h3>Consórcios</h3>
               <p class="price-line">Planejamento e aquisição estruturada</p>
-              <p>
-                Consultoria para aquisição de bens e planejamento patrimonial com visão financeira de longo prazo.
-              </p>
-              <a class="card-link" href="#contato">Ver detalhes e condições</a>
+              <p>Consultoria para aquisição de bens e planejamento patrimonial com visão financeira de longo prazo.</p>
+              <ul class="pillar-list">
+                <li>Veículos, imóveis e equipamentos</li>
+                <li>Análise de prazo e custo</li>
+                <li>Estratégia de lances e contemplação</li>
+              </ul>
+              <a class="card-link" href="#contato" data-pilar="Consórcios">Falar sobre Consórcios</a>
             </article>
           </div>
         </section>
 
-        <section class="section focus-band" id="sobre">
-          <div>
-            <p>Impulsione sua empresa com a Hub Nexus.</p>
-            <h2>Uma única estratégia consultiva que integra contabilidade, tecnologia, segurança e consórcios.</h2>
+        <section class="section" id="metodo">
+          <div class="section-heading reveal">
+            <p>Como funciona</p>
+            <h2>Do primeiro contato ao plano em ação, em três passos.</h2>
           </div>
-            <div class="focus-copy">
-              <h3>Nosso foco</h3>
-              <p>
-                  Inteligência de mercado e soluções de alto impacto para acelerar o crescimento do seu negócio.
-              </p>
-            </div>
+
+          <ol class="steps">
+            <li class="reveal">
+              <span class="step-num">1</span>
+              <h3>Diagnóstico</h3>
+              <p>Conversamos sobre o momento da empresa e mapeamos prioridades nas quatro frentes.</p>
+            </li>
+            <li class="reveal">
+              <span class="step-num">2</span>
+              <h3>Plano prático</h3>
+              <p>Você recebe um plano claro, por pilar, com escopo e próximos passos definidos.</p>
+            </li>
+            <li class="reveal">
+              <span class="step-num">3</span>
+              <h3>Acompanhamento</h3>
+              <p>Executamos junto com você e ajustamos a rota conforme o negócio evolui.</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="section focus-band" id="sobre">
+          <div class="reveal">
+            <p>Sobre a Hub Nexus</p>
+            <h2>Uma única estratégia para quatro áreas que decidem o seu resultado.</h2>
+          </div>
+          <div class="focus-copy reveal">
+            <h3>Nosso foco</h3>
+            <p>Inteligência de mercado e soluções de alto impacto para acelerar o crescimento do seu negócio.</p>
+          </div>
         </section>
 
         <section class="section faq-section" id="faq">
-          <div class="section-heading">
+          <div class="section-heading reveal">
             <p>Dúvidas frequentes</p>
             <h2>Tudo o que você precisa saber antes de falar com a Hub Nexus.</h2>
           </div>
 
           <div class="faq-grid">
-            <details open>
+            <details class="reveal" open>
               <summary>Como a consultoria funciona?</summary>
               <p>Começamos com um diagnóstico, organizamos prioridades e seguimos com um plano prático por pilares.</p>
             </details>
-            <details>
+            <details class="reveal">
               <summary>Os quatro pilares são contratados juntos?</summary>
               <p>Podem ser contratados em conjunto ou separadamente, conforme a necessidade da empresa.</p>
             </details>
-            <details>
+            <details class="reveal">
               <summary>Vocês atendem empresas de qualquer porte?</summary>
-              <p>Sim. A página foi pensada para empresas que precisam de orientação consultiva e presença profissional.</p>
+              <p>Sim. Adaptamos o escopo ao tamanho e ao momento de cada empresa, de negócios em estruturação a operações maiores.</p>
             </details>
-            <details>
+            <details class="reveal">
               <summary>Posso pedir um orçamento personalizado?</summary>
-              <p>Sim. O botão de contato leva para um atendimento direto para alinharmos escopo e necessidade.</p>
+              <p>Sim. Preencha o formulário de contato ou chame no WhatsApp e alinhamos escopo e necessidade sem compromisso.</p>
             </details>
           </div>
         </section>
 
         <section class="section contact-grid" id="contato">
-          <div class="contact-card contact-primary">
+          <div class="contact-card contact-primary reveal">
             <p>Contato</p>
-            <h2>Vamos juntos construir o próximo capítulo de sucesso da sua empresa. Fale com um de nossos consultores.</h2>
-            <a class="button button-primary" href="mailto:contato@hubnexus.com.br">Solicitar proposta</a>
+            <h2>Vamos construir o próximo capítulo de sucesso da sua empresa.</h2>
+
+            <form class="contact-form" id="contact-form" novalidate>
+              <label>
+                <span>Nome</span>
+                <input type="text" name="nome" autocomplete="name" required />
+              </label>
+              <label>
+                <span>Empresa</span>
+                <input type="text" name="empresa" autocomplete="organization" />
+              </label>
+              <label>
+                <span>Interesse</span>
+                <select name="pilar">
+                  <option value="">Ainda não sei / mais de um</option>
+                  <option>Contabilidade</option>
+                  <option>Tecnologia</option>
+                  <option>Segurança do Trabalho</option>
+                  <option>Consórcios</option>
+                </select>
+              </label>
+              <label>
+                <span>Como podemos ajudar?</span>
+                <textarea name="mensagem" rows="3"></textarea>
+              </label>
+              <button class="button button-primary" type="submit">Enviar pelo WhatsApp</button>
+              <p class="form-note">Ao enviar, abrimos o WhatsApp com sua mensagem pronta. Prefere e-mail? <a href="mailto:contato@hubnexus.com.br">contato@hubnexus.com.br</a></p>
+            </form>
           </div>
-          <div class="contact-card contact-secondary">
+
+          <div class="contact-card contact-secondary reveal">
             <p>Informações</p>
             <ul>
-              <li><strong>WhatsApp:</strong> (19) 99999-9999</li>
-              <li><strong>E-mail:</strong> contato@hubnexus.com.br</li>
+              <li><strong>WhatsApp:</strong> <a href="https://wa.me/5519999999999" data-whatsapp>(19) 99999-9999</a></li>
+              <li><strong>E-mail:</strong> <a href="mailto:contato@hubnexus.com.br">contato@hubnexus.com.br</a></li>
               <li><strong>Atendimento:</strong> Seg a Sex, 08h às 18h</li>
               <li><strong>Formato:</strong> Consultoria online e presencial</li>
             </ul>
@@ -204,11 +291,18 @@
       <footer class="site-footer">
         <div>
           <strong>Hub Nexus</strong>
-          <span>Contabilidade | Tecnologia | Segurança no Trabalho | Consórcios</span>
+          <span>Contabilidade | Tecnologia | Segurança do Trabalho | Consórcios</span>
         </div>
-        <a href="#inicio">Voltar ao topo</a>
+        <a href="#inicio">Voltar ao topo ↑</a>
       </footer>
     </div>
+
+    <a class="whatsapp-fab" href="https://wa.me/5519999999999" data-whatsapp aria-label="Falar no WhatsApp">
+      <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.7-5.4A8.4 8.4 0 1 1 21 11.5Z" />
+        <path d="M9 9.5c0 3 2.500 5.500 5.500 5.500l1.200-1.500-2-1-.8.8c-.9-.4-1.700-1.200-2.100-2.100l.8-.8-1-2L9 9.500Z" />
+      </svg>
+    </a>
 
     <script src="script.js"></script>
   </body>
